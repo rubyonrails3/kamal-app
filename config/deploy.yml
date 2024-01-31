@@ -58,12 +58,12 @@ accessories:
         - POSTGRES_PASSWORD
     directories:
       - data:/var/lib/postgresql/data
-#   redis:
-#     image: redis:7.0
-#     host: 192.168.0.2
-#     port: 6379
-#     directories:
-#       - data:/data
+  redis:
+    image: redis:7.0
+    host: 137.184.224.77
+    port: 6379
+    directories:
+      - data:/data
 
 # Configure custom arguments for Traefik
 # traefik:

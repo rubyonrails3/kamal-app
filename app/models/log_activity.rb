@@ -1,0 +1,2 @@
+class LogActivity < ApplicationRecord
+end
